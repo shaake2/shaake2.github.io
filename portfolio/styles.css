@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    --pink: #F770E5;
+    --light-pink: #FF8ECC;
+    --peach: #FFAEB0;
+    --orange: #FFC897;
+    --yellow: #FFE791;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 40px 16px;
+    background-color: var(--light-pink);
+    background-image: url("../assets/pinkandyellow-background.png");
+    color: #50334A;
+}
+
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px;
+    background-color: #FFF9F1;
+    border: 3px solid var(--yellow);
+    border-radius: 24px;
+    box-shadow: 10px 10px 0px var(--pink);
+}
+
+header {
+    text-align: center;
+    padding: 24px 0 40px;
+    border-bottom: 2px dashed var(--peach);
+}
+
+.small-label {
+    color: #A44387;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+h1, h2, h3 {
+    font-family: "Cardo", serif;
+}
+
+h1 {
+    font-size: 88px;
+    color: #D944A5;
+    margin: 8px 0;
+    text-shadow: 3px 3px 0px var(--yellow);
+}
+
+.intro {
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+section {
+    margin-top: 48px;
+}
+
+h2 {
+    font-size: 34px;
+    margin-bottom: 16px;
+    color: #B13C8D;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    background-color: #FFF0F4;
+    border: 2px solid var(--peach);
+    border-radius: 16px;
+    transition: all 300ms;
+}
+
+.card:hover {
+    background-color: #FFE8F7;
+    box-shadow: 5px 5px 0px var(--orange);
+    transform: translateY(-4px);
+}
+
+.number {
+    color: #B13C8D;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card h3 {
+    font-size: 25px;
+    margin: 12px 0;
+}
+
+.card p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.tags span {
+    padding: 12px 16px;
+    background-color: var(--yellow);
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.tags span:hover {
+    background-color: var(--orange);
+}
+
+footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 2px dashed var(--peach);
+    text-align: center;
+    font-size: 14px;
+}
+
+footer span {
+    color: #D944A5;
+}
+
+
+footer {
+    text-align: center;
+    padding: 32px;
+}
+
+footer a {
+    color: #F770E5;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
