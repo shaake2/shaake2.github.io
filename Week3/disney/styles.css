@@ -1,0 +1,58 @@
+body {
+    background-color: #B9D8EF;
+    background-image: url("../assets/sparkle-background.png");
+    font-family: "Inter", sans-serif;
+}
+
+.card {
+    width: 500px;
+    height: 750px;
+    padding: 36px;
+    margin: 40px auto;
+    background-color: #FBF4EC;
+    border-radius: 12px;
+    box-shadow: 8px 8px 20px #DFE1E6;
+    text-align: center;
+}
+
+.card > img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center 65%;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.card > h1 {
+    font-family: "Niconne", cursive;
+    font-size: 52px;
+    font-weight: 400;
+    color: #C77F91;
+}
+
+.card > p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #49566B;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.card .button {
+    display: inline-block;
+    background-color: #F0CCCE;
+    color: #49566B;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 24px;
+    text-decoration: none;
+}
+
+.card .button:hover {
+    background-color: #DFE1E6;
+}
